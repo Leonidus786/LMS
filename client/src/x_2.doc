@@ -1,0 +1,125 @@
+Folder PATH listing
+Volume serial number is 00000060 56AC:B016
+D:\LMS\CLIENT\SRC
+|   App.css
+|   App.jsx
+|   DarkMode.jsx
+|   index.css
+|   main.jsx
+|   x_2.doc
+|   
++---app
+|       rootReducer.js
+|       store.js
+|       
++---assets
+|       react.svg
+|       
++---components
+|   |   BuyCourseButton.jsx
+|   |   CardComponent.jsx
+|   |   DateTimePicker.jsx
+|   |   LoadingSpinner.jsx
+|   |   Navbar.jsx
+|   |   NotificationPopup.jsx
+|   |   ProtectedRoutes.jsx
+|   |   PurchaseCourseProtectedRoute.jsx
+|   |   RichTextEditor.jsx
+|   |   ThemeProvider.jsx
+|   |   ZoomMeetingForm.jsx
+|   |   
+|   \---ui
+|           avatar.jsx
+|           badge.jsx
+|           button.jsx
+|           calendar.jsx
+|           card.jsx
+|           checkbox.jsx
+|           dialog.jsx
+|           dropdown-menu.jsx
+|           input.jsx
+|           label.jsx
+|           popover.jsx
+|           progress.jsx
+|           select.jsx
+|           separator.jsx
+|           sheet.jsx
+|           skeleton.jsx
+|           sonner.jsx
+|           switch.jsx
+|           table.jsx
+|           tabs.jsx
+|           
++---features
+|   |   authSlice.js
+|   |   courseSlice.js
+|   |   
+|   \---api
+|           authApi.js
+|           batchApi.js
+|           courseApi.js
+|           courseProgressApi.js
+|           purchaseApi.js
+|           studentApi.js
+|           zoomApi.js
+|           
++---layout
+|       MainLayout.jsx
+|       
++---lib
+|       utils.js
+|       
++---pages
+|   |   AdminDashboard.jsx
+|   |   Login.jsx
+|   |   
+|   +---admin
+|   |   |   Admin.jsx
+|   |   |   Dashboard.jsx
+|   |   |   Sidebar.jsx
+|   |   |   
+|   |   +---batch
+|   |   |       AddBatch.jsx
+|   |   |       BatchManagement.jsx
+|   |   |       BatchTable.jsx
+|   |   |       EditBatch.jsx
+|   |   |       ManageBatches.jsx
+|   |   |       
+|   |   +---course
+|   |   |       AddCourse.jsx
+|   |   |       CourseTab.jsx
+|   |   |       CourseTable.jsx
+|   |   |       EditCourse.jsx
+|   |   |       
+|   |   +---instructor
+|   |   |       AddInstructor.jsx
+|   |   |       EditInstructor.jsx
+|   |   |       InstructorManagement.jsx
+|   |   |       
+|   |   +---lecture
+|   |   |       CreateLecture.jsx
+|   |   |       EditLecture.jsx
+|   |   |       Lecture.jsx
+|   |   |       LectureTab.jsx
+|   |   |       
+|   |   \---student
+|   |           AddStudent.jsx
+|   |           EditStudent.jsx
+|   |           StudentManagement.jsx
+|   |           
+|   \---student
+|           ChangePassword.jsx
+|           Course.jsx
+|           CourseDetail.jsx
+|           CourseProgress.jsx
+|           Courses.jsx
+|           Filter.jsx
+|           HeroSection.jsx
+|           MyLearning.jsx
+|           Profile.jsx
+|           SearchPage.jsx
+|           SearchResult.jsx
+|           
+\---services
+        batchService.js
+        

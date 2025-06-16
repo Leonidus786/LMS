@@ -1,0 +1,19 @@
+# General
+node_modules
+dist
+*.log
+
+# Server
+server/.env
+server/uploads  # If you have file uploads
+server/.env.development
+server/.env.production
+# Client
+client/dist
+client/.env  # If you add one later
+
+
+
+.env
+.env.development
+.env.production
