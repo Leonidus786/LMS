@@ -2,7 +2,8 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // Use environment variable for the base URL, with a fallback for local development
 const COURSE_API =
-  process.env.REACT_APP_COURSE_API || "http://localhost:5000/api/v1/course";
+  process.env.REACT_APP_COURSE_API ||
+  "https://lms-c3nt.onrender.com/api/v1/course";
 
 export const courseApi = createApi({
   reducerPath: "courseApi",

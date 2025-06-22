@@ -1,7 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const STUDENT_API =
-  process.env.REACT_APP_STUDENT_API || "http://localhost:5000/api/v1/students";
+  process.env.REACT_APP_STUDENT_API ||
+  "https://lms-c3nt.onrender.com/api/v1/students";
 
 export const studentApi = createApi({
   reducerPath: "studentApi",

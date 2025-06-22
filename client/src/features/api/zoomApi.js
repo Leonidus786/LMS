@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const ZOOM_API = "http://localhost:8080/api/v1/zoom";
+const ZOOM_API = "https://lms-c3nt.onrender.com/api/v1/zoom";
 
 export const zoomApi = createApi({
   reducerPath: "zoomApi",

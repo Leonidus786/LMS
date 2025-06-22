@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const BATCH_API = "http://localhost:8080/api/v1/batches";
+const BATCH_API = "https://lms-c3nt.onrender.com/api/v1/batches";
 
 export const batchApi = createApi({
   reducerPath: "batchApi",
