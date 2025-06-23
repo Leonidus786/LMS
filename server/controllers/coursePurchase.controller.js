@@ -8,7 +8,7 @@ import mongoose from "mongoose";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
-const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5174";
+const CLIENT_URL = process.env.CLIENT_URL || "https://lms-c3nt.onrender.com";
 
 console.log("[coursePurchase.controller] Loaded CLIENT_URL:", CLIENT_URL);
 
